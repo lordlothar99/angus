@@ -6,7 +6,13 @@
 	<packaging>jar</packaging>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>angus-poc</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/lordlothar99/angus</url>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
